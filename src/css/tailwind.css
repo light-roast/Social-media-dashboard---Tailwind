@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media (prefers-color-scheme: dark) {
+
+}
+
+@layer base {
+    h1, h2, h3, h4, h5, h6 {
+        @apply font-bold;
+    }
+}
+
+@layer components {
+    .switch {
+        @apply bg-[hsl(230,22%,74%)] w-16 h-8 flex p-2 
+        rounded-full cursor-pointer items-center flex-row-reverse 
+        peer-checked:bg-gradient-to-r from-gradient-switch-first to-gradient-switch-second
+        peer-checked:[--bg-circle:hsl(228,28%,20%)]
+        peer-checked:[--transform-circle:-100%];
+    }
+
+    .card-social-fb {
+        @apply rounded-lg py-8 px-4 space-y-6 w-full max-w-md relative 
+        before:absolute before:inset-x-0 before:top-0 
+        before:h-2 before:bg-facebook before:rounded-t-lg text-dark-grayish-blue;
+    }
+
+    .card-social-tw {
+        @apply rounded-lg py-8 px-4 space-y-6 w-full max-w-md relative 
+        before:absolute before:inset-x-0 before:top-0 
+        before:h-2 before:bg-twitter before:rounded-t-lg text-dark-grayish-blue;
+    }
+
+    .card-social-ig {
+        @apply rounded-lg py-8 px-4 space-y-6 w-full max-w-md relative 
+        before:absolute before:inset-x-0 before:top-0 
+        before:h-2 before:bg-gradient-to-r before:from-instagram-first before:to-instagram-second before:rounded-t-lg text-dark-grayish-blue;
+    }
+
+    .card-social-yt {
+        @apply rounded-lg py-8 px-4 space-y-6 w-full max-w-md relative 
+        before:absolute before:inset-x-0 before:top-0 
+        before:h-2 before:bg-youtube before:rounded-t-lg text-dark-grayish-blue;
+    }
+
+    .overview {
+        @apply grid grid-cols-[min-content_max-content] grid-rows-[max-content_max-content] justify-between items-center gap-y-12 content-center bg-light-grayish-blue p-6 rounded-lg max-w-sm w-full;
+    }
+}
