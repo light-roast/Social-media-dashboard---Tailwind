@@ -1,17 +1,25 @@
+---
+runme:
+  id: 01HV6N05QKB9CG4GQ40K9RR7V9
+  version: v3
+---
+
 # Frontend Mentor - Social media dashboard with theme switcher solution
 
-This is a solution to the [Social media dashboard with theme switcher challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/social-media-dashboard-with-theme-switcher-6oY8ozp_H). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Social media dashboard with theme switcher challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/social-media-dashboard-with-theme-switcher-6oY8ozp_H). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
 - [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
+   - [The challenge](#the-challenge)
+   - [Screenshot](#screenshot)
+   - [Links](#links)
+
 - [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Useful resources](#useful-resources)
+   - [Built with](#built-with)
+   - [What I learned](#what-i-learned)
+   - [Useful resources](#useful-resources)
+
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
@@ -31,7 +39,6 @@ Users should be able to:
 
 ![](./src/images/st.png)
 
-
 ### Links
 
 - Solution URL: [Add solution URL here](https://github.com/light-roast/Social-media-dashboard---Tailwind)
@@ -47,17 +54,14 @@ Users should be able to:
 - CSS Grid
 - Mobile-first workflow
 
-
 ### What I learned
 
 This is a hands on experience project to practice the knowledge adquired by the course "Curso a fondo de Tailwind" by Código facilito. I learn how o correctly implement a dark-light mode switcher (from the creation of the switch itself to the implementation of this functionality).
 
-
 ### Useful resources
 
-- [Tailwind documentarion](https://tailwindcss.com/docs/).
-- [Curso a fondo de TailwindCSS by Código facilito](https://codigofacilito.com/cursos/tailwind-css) - The course I use to learn Tailwind and follow up this practice. 
-
+- [Tailwind documentation](https://tailwindcss.com/docs/).
+- [Curso a fondo de TailwindCSS by Código facilito](https://codigofacilito.com/cursos/tailwind-css) - The course I use to learn Tailwind and follow up this practice.
 
 ## Author
 
